@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro:400,400i,700,700i|Archivo:400,400i,500,500i,600,600i,700,700i&display=swap');
+
+
+
+html {
+  
+}
+
+body {
+  font-family: 'Archivo', sans-serif;
+  margin: 0;
+  background-color: #F9F8F5;
+  color: #060D2C;
+  font-size: 18px;
+}
+
+
+.menu {
+  width: 20%;
+  height: 100vh;
+  border-right: 3px solid #060D2C;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+.extra {
+  width: 20%;
+  height: 100vh;
+  border-left: 3px solid #060D2C;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+}
+
+.extra .informations {
+  
+  padding-top: 40px;
+  font-size: 0.9rem;
+  
+  position: relative;
+  padding-left: 50px;
+}
+
+.block {
+  line-height: 0;
+  
+}
+
+main {
+  width: 60%;
+  margin: 0px auto;
+  
+}
+
+header {
+  background-color: #060D2C;
+  color: #F9F8F5;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 2rem;
+
+}
+
+h2 {
+  font-family: 'Anonymous Pro', monospace;
+  font-weight: 400;
+  font-size: 1.9rem;
+  line-height: 1.2;
+
+}
+
+h3 {
+  font-family: 'Anonymous Pro', monospace;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.4;
+
+}
+
+h4 {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  background-color: #060D2C;
+  color: #F9F8F5;
+  display: inline-block;
+  padding: 15px;
+
+}
+
+h5 {
+  font-family: 'Anonymous Pro', monospace;
+  font-weight: 400;
+  font-size: 0.8rem;
+
+}
+
+.caption {
+  font-size: 0.85rem;
+}
+
+.small {
+  font-size: 0.8rem;
+  padding: 3px;
+}
+
+p {
+  line-height: 1.5;
+
+}
+
+section p {
+  line-height: 0.7;
+}
+
+section a {
+  font-style: italic;
+}
+
+.blockquote {
+  border-left: 1px solid black;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+.blockquote p {
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 2.5rem;
+  line-height: 1.1;
+  padding: 0 0 0 20px;
+
+}
+
+.strong {
+  font-weight: 700;
+}
+
+ul {
+  line-height: 1.5;
+}
+
+.headline {
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-bottom: -15px;
+}
+
+.category {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: -15px;
+  
+}
+
+ a {
+  color: #060D2C;
+  text-decoration: underline;
+}
+
+
+ a:hover {
+  background-color: #060D2C;
+  color: white;
+  text-decoration: line-through;
+}
+
+
+footer {
+  padding-bottom: 100px;
+}
+
+nav a {
+  color: #060D2C;
+  font-size: 0.7666rem;
+  
+}
+
+nav a:hover {
+  background-color: #060D2C;
+  color: white;
+  text-decoration: none;
+
+}
+
+nav a.active {
+  background-color: #060D2C;
+  color: white;
+}
+
+nav a.activestudents {
+  background-color: white;
+  color: #3c863c;
+}
+
+nav {
+  
+  left: 48px;
+  top:145px;
+  line-height: 1.5;
+}
+
+.week {
+  padding-top: 40px;
+}
+
+
+
+
+
+.container {
+  display: flex;
+  width: 60%; /* 1200px site width + 12px padding each side */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.space-between-columns {
+  justify-content: space-between;
+}
+
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.three-columns,
+.five-columns,
+.eight-columns,
+.twelve-columns {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.three-columns {
+  width: 25%;
+}
+
+.eight-columns {
+  width: 66.666666%;
+}
+
+.twelve-columns {
+  width: 100%;
+}
+
+.padding {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+ .menu h1 {
+  width: 28px;
+  padding-left: 39px;
+
+}
+
+img {
+  vertical-align: bottom;
+  max-width: 100%;
+}
+
+.image {
+  padding: 30px 0 10px 0;
+}
+
+nav ul  {
+     list-style-type: none;
+     
+  }
+
+
+@media screen and (min-width: 1px) and (max-width: 1080px)  {
+
+    .extra {
+      display: none;
+    }
+
+    .menu {
+      display: none;
+    }
+
+    main {
+    width: 100%;
+    margin: 0px auto;
+    }
+    
+    .container {
+      width: 90%;
+    }
+
+
+
+     nav ul  {
+       list-style-type: none;
+       
+    }
+
+    
+
+    nav a {
+      font-size: 1.2rem;
+      line-height: 2rem;
+    }
+
+    .menu-mobile h1 {
+    width: 28px;
+    padding-left: 25px;
+
+}
+
+
+
+}
+
+
+@media screen and (min-width: 1081px)  {
+
+    .menu-mobile {
+      display: none;
+    }
+
+}
+
+@media screen and (min-width: 1500px)  {
+
+  main {
+    max-width: 50%;
+    margin: 0px auto;
+    }
+  
+  .menu {
+    width: 25%;
+  }
+
+  .extra {
+    width: 25%;
+ 
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
