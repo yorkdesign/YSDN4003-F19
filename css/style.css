@@ -47,6 +47,10 @@ body {
   
 }
 
+.lineheight {
+  line-height: 1.5;
+}
+
 main {
   width: 60%;
   margin: 0px auto;
